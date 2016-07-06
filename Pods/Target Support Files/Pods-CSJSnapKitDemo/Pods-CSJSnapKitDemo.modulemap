@@ -1,0 +1,6 @@
+framework module Pods_CSJSnapKitDemo {
+  umbrella header "Pods-CSJSnapKitDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
