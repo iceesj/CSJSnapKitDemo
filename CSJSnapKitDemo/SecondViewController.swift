@@ -93,7 +93,7 @@ class SecondViewController: UIViewController {
             //上下
             self.oneView.snp_makeConstraints(closure: { (make) in
                 make.top.left.equalTo(padding)
-                make.right.equalTo(padding)
+                make.right.equalTo(-padding)
                 make.bottom.equalTo(self.twoView.snp_top).offset(-padding)
                 
             })
