@@ -13,27 +13,27 @@ class SecondViewController: UIViewController {
     
     let oneView: UIView = {
         let view = UIView()
-        view.backgroundColor = .redColor()
+        view.backgroundColor = .red
         return view
     }()
     let twoView: UIView = {
         let view = UIView()
-        view.backgroundColor = .greenColor()
+        view.backgroundColor = .green
         return view
     }()
     let threeView: UIView = {
         let view = UIView()
-        view.backgroundColor = .blueColor()
+        view.backgroundColor = .blue
         return view
     }()
     let fourView: UIView = {
         let view = UIView()
-        view.backgroundColor = .yellowColor()
+        view.backgroundColor = .yellow
         return view
     }()
     let fiveView: UIView = {
         let view = UIView()
-        view.backgroundColor = .blackColor()
+        view.backgroundColor = .black
         return view
     }()
     
@@ -49,8 +49,8 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        edgesForExtendedLayout = .None
-        view.backgroundColor = UIColor.whiteColor()
+        edgesForExtendedLayout = UIRectEdge()
+        view.backgroundColor = UIColor.white
         navigationItem.title = "SnapKit"
         
         
@@ -65,7 +65,7 @@ class SecondViewController: UIViewController {
 
         
         if self.panduanString == "1" {
-            self.oneView.snp_makeConstraints { (make) in
+            self.oneView.snp.makeConstraints { (make) in
 //                make.center.equalTo(view)
 //                make.size.equalTo(CGSizeMake(100.0, 100.0))
                 make.top.left.equalTo(padding)
@@ -91,100 +91,100 @@ class SecondViewController: UIViewController {
             */
             
             //上下
-            self.oneView.snp_makeConstraints(closure: { (make) in
+            self.oneView.snp.makeConstraints({ (make) in
                 make.top.left.equalTo(padding)
                 make.right.equalTo(-padding)
-                make.bottom.equalTo(self.twoView.snp_top).offset(-padding)
+                make.bottom.equalTo(self.twoView.snp.top).offset(-padding)
                 
             })
             
-            self.twoView.snp_makeConstraints(closure: { (make) in
+            self.twoView.snp.makeConstraints({ (make) in
 //                make.top.equalTo(self.oneView.snp_top)
                 make.left.equalTo(padding)
                 make.bottom.right.equalTo(-padding)
                 
-                make.width.equalTo(self.oneView.snp_width)
-                make.height.equalTo(self.oneView.snp_height)
+                make.width.equalTo(self.oneView.snp.width)
+                make.height.equalTo(self.oneView.snp.height)
             })
         }
         else if self.panduanString == "3" {
             //上下
-            self.oneView.snp_makeConstraints(closure: { (make) in
+            self.oneView.snp.makeConstraints({ (make) in
                 make.top.left.equalTo(padding)
                 make.right.equalTo(-padding)
-                make.bottom.equalTo(self.twoView.snp_top).offset(-padding)
+                make.bottom.equalTo(self.twoView.snp.top).offset(-padding)
             })
-            self.twoView.snp_makeConstraints(closure: { (make) in
+            self.twoView.snp.makeConstraints({ (make) in
                 make.left.equalTo(padding)
                 make.right.equalTo(-padding)
-                make.bottom.equalTo(self.threeView.snp_top).offset(-padding)
+                make.bottom.equalTo(self.threeView.snp.top).offset(-padding)
                 
-                make.width.equalTo(self.oneView.snp_width)
-                make.height.equalTo(self.oneView.snp_height)
+                make.width.equalTo(self.oneView.snp.width)
+                make.height.equalTo(self.oneView.snp.height)
             })
-            self.threeView.snp_makeConstraints(closure: { (make) in
+            self.threeView.snp.makeConstraints({ (make) in
                 make.bottom.left.equalTo(padding)
                 make.bottom.right.equalTo(-padding)
                 
-                make.width.equalTo(self.oneView.snp_width)
-                make.height.equalTo(self.oneView.snp_height)
+                make.width.equalTo(self.oneView.snp.width)
+                make.height.equalTo(self.oneView.snp.height)
             })
         }
         else if self.panduanString == "4"{
             //上下
-            self.oneView.snp_makeConstraints(closure: { (make) in
+            self.oneView.snp.makeConstraints({ (make) in
                 make.top.left.equalTo(padding)
                 make.right.equalTo(-padding)
-                make.bottom.equalTo(self.twoView.snp_top).offset(-padding)
+                make.bottom.equalTo(self.twoView.snp.top).offset(-padding)
             })
-            self.twoView.snp_makeConstraints(closure: { (make) in
+            self.twoView.snp.makeConstraints({ (make) in
                 make.left.equalTo(padding)
                 make.right.equalTo(-padding)
-                make.bottom.equalTo(self.threeView.snp_top).offset(-padding)
+                make.bottom.equalTo(self.threeView.snp.top).offset(-padding)
                 
-                make.width.equalTo(self.oneView.snp_width)
-                make.height.equalTo(self.oneView.snp_height)
+                make.width.equalTo(self.oneView.snp.width)
+                make.height.equalTo(self.oneView.snp.height)
             })
-            self.threeView.snp_makeConstraints(closure: { (make) in
+            self.threeView.snp.makeConstraints({ (make) in
                 make.left.equalTo(padding)
                 make.right.equalTo(-padding)
-                make.bottom.equalTo(self.fourView.snp_top).offset(-padding)
+                make.bottom.equalTo(self.fourView.snp.top).offset(-padding)
                 
-                make.width.equalTo(self.oneView.snp_width)
-                make.height.equalTo(self.oneView.snp_height)
+                make.width.equalTo(self.oneView.snp.width)
+                make.height.equalTo(self.oneView.snp.height)
             })
-            self.fourView.snp_makeConstraints(closure: { (make) in
+            self.fourView.snp.makeConstraints({ (make) in
                 make.left.equalTo(padding)
                 make.bottom.right.equalTo(-padding)
                 
-                make.width.equalTo(self.oneView.snp_width)
-                make.height.equalTo(self.oneView.snp_height)
+                make.width.equalTo(self.oneView.snp.width)
+                make.height.equalTo(self.oneView.snp.height)
             })
         }else{
             //5
-            self.oneView.snp_makeConstraints(closure: { (make) in
+            self.oneView.snp.makeConstraints({ (make) in
                 make.center.equalTo(view)
-                make.size.equalTo(CGSizeMake(100.0, 100.0))
+                make.size.equalTo(CGSize(width: 100.0, height:100.0))
             })
-            self.twoView.snp_makeConstraints(closure: { (make) in
-                make.top.equalTo(oneView.snp_bottom).offset(20.0)
+            self.twoView.snp.makeConstraints({ (make) in
+                make.top.equalTo(oneView.snp.bottom).offset(20.0)
                 make.left.equalTo(20.0)
-                make.size.equalTo(CGSizeMake(100.0, 100.0))
+                make.size.equalTo(CGSize(width: 100.0, height:100.0))
             })
-            self.threeView.snp_makeConstraints(closure: { (make) in
-                make.top.equalTo(oneView.snp_bottom).offset(20.0)
-                make.left.equalTo(oneView.snp_right).offset(20.0)
-                make.size.equalTo(CGSizeMake(100.0, 100.0))
+            self.threeView.snp.makeConstraints({ (make) in
+                make.top.equalTo(oneView.snp.bottom).offset(20.0)
+                make.left.equalTo(oneView.snp.right).offset(20.0)
+                make.size.equalTo(CGSize(width: 100.0, height:100.0))
             })
-            self.fourView.snp_makeConstraints(closure: { (make) in
-                make.bottom.equalTo(oneView.snp_top).offset(-20.0)
-                make.left.equalTo(oneView.snp_right).offset(20.0)
-                make.size.equalTo(CGSizeMake(100.0, 100.0))
+            self.fourView.snp.makeConstraints({ (make) in
+                make.bottom.equalTo(oneView.snp.top).offset(-20.0)
+                make.left.equalTo(oneView.snp.right).offset(20.0)
+                make.size.equalTo(CGSize(width: 100.0, height:100.0))
             })
-            self.fiveView.snp_makeConstraints(closure: { (make) in
-                make.bottom.equalTo(oneView.snp_top).offset(-20.0)
-                make.right.equalTo(oneView.snp_left).offset(-20.0)
-                make.size.equalTo(CGSizeMake(100.0, 100.0))
+            self.fiveView.snp.makeConstraints({ (make) in
+                make.bottom.equalTo(oneView.snp.top).offset(-20.0)
+                make.right.equalTo(oneView.snp.left).offset(-20.0)
+                make.size.equalTo(CGSize(width: 100.0, height:100.0))
             })
         }
         

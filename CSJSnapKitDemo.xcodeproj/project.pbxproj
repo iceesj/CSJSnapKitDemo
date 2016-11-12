@@ -12,28 +12,11 @@
 		7B207D301D2BB9C000C99118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B207D2E1D2BB9C000C99118 /* Main.storyboard */; };
 		7B207D321D2BB9C000C99118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B207D311D2BB9C000C99118 /* Assets.xcassets */; };
 		7B207D351D2BB9C000C99118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B207D331D2BB9C000C99118 /* LaunchScreen.storyboard */; };
-		7B207D401D2BB9C100C99118 /* CSJSnapKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B207D3F1D2BB9C100C99118 /* CSJSnapKitDemoTests.swift */; };
-		7B207D4B1D2BB9C100C99118 /* CSJSnapKitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B207D4A1D2BB9C100C99118 /* CSJSnapKitDemoUITests.swift */; };
 		7B207D591D2BBE8200C99118 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B207D581D2BBE8200C99118 /* SecondViewController.swift */; };
+		7B31148C1DD6AE6600778EB6 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B31148A1DD6AE6600778EB6 /* SnapKit.framework */; };
+		7B31148D1DD6AE6600778EB6 /* SnapKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 7B31148B1DD6AE6600778EB6 /* SnapKit.framework.dSYM */; };
 		A8988630D02619FB27C9B8B3 /* Pods_CSJSnapKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE61B9E78E359C8F64F23C2B /* Pods_CSJSnapKitDemo.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7B207D3C1D2BB9C100C99118 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B207D1F1D2BB9C000C99118 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B207D261D2BB9C000C99118;
-			remoteInfo = CSJSnapKitDemo;
-		};
-		7B207D471D2BB9C100C99118 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B207D1F1D2BB9C000C99118 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B207D261D2BB9C000C99118;
-			remoteInfo = CSJSnapKitDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		261D99A20A0ECCD5EEF6D8B4 /* Pods-CSJSnapKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSJSnapKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSJSnapKitDemo/Pods-CSJSnapKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,13 +27,13 @@
 		7B207D311D2BB9C000C99118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B207D341D2BB9C000C99118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B207D361D2BB9C000C99118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B207D3B1D2BB9C000C99118 /* CSJSnapKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSJSnapKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B207D3F1D2BB9C100C99118 /* CSJSnapKitDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSJSnapKitDemoTests.swift; sourceTree = "<group>"; };
 		7B207D411D2BB9C100C99118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B207D461D2BB9C100C99118 /* CSJSnapKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSJSnapKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B207D4A1D2BB9C100C99118 /* CSJSnapKitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSJSnapKitDemoUITests.swift; sourceTree = "<group>"; };
 		7B207D4C1D2BB9C100C99118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B207D581D2BBE8200C99118 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7B31148A1DD6AE6600778EB6 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		7B31148B1DD6AE6600778EB6 /* SnapKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SnapKit.framework.dSYM; path = Carthage/Build/iOS/SnapKit.framework.dSYM; sourceTree = "<group>"; };
 		85397A4BEC172C56A843B4B9 /* Pods-CSJSnapKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSJSnapKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSJSnapKitDemo/Pods-CSJSnapKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FE61B9E78E359C8F64F23C2B /* Pods_CSJSnapKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSJSnapKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,20 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8988630D02619FB27C9B8B3 /* Pods_CSJSnapKitDemo.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B207D381D2BB9C000C99118 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B207D431D2BB9C100C99118 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7B31148C1DD6AE6600778EB6 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +62,8 @@
 		7B207D1E1D2BB9C000C99118 = {
 			isa = PBXGroup;
 			children = (
+				7B31148A1DD6AE6600778EB6 /* SnapKit.framework */,
+				7B31148B1DD6AE6600778EB6 /* SnapKit.framework.dSYM */,
 				7B207D291D2BB9C000C99118 /* CSJSnapKitDemo */,
 				7B207D3E1D2BB9C100C99118 /* CSJSnapKitDemoTests */,
 				7B207D491D2BB9C100C99118 /* CSJSnapKitDemoUITests */,
@@ -105,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				7B207D271D2BB9C000C99118 /* CSJSnapKitDemo.app */,
-				7B207D3B1D2BB9C000C99118 /* CSJSnapKitDemoTests.xctest */,
-				7B207D461D2BB9C100C99118 /* CSJSnapKitDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,6 +135,7 @@
 				7B207D251D2BB9C000C99118 /* Resources */,
 				D41B43D7C8823DD369A00938 /* [CP] Embed Pods Frameworks */,
 				BEC9428976F8CE8613A21D5B /* [CP] Copy Pods Resources */,
+				7B31148E1DD6AE7C00778EB6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -174,42 +145,6 @@
 			productName = CSJSnapKitDemo;
 			productReference = 7B207D271D2BB9C000C99118 /* CSJSnapKitDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		7B207D3A1D2BB9C000C99118 /* CSJSnapKitDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7B207D521D2BB9C100C99118 /* Build configuration list for PBXNativeTarget "CSJSnapKitDemoTests" */;
-			buildPhases = (
-				7B207D371D2BB9C000C99118 /* Sources */,
-				7B207D381D2BB9C000C99118 /* Frameworks */,
-				7B207D391D2BB9C000C99118 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7B207D3D1D2BB9C100C99118 /* PBXTargetDependency */,
-			);
-			name = CSJSnapKitDemoTests;
-			productName = CSJSnapKitDemoTests;
-			productReference = 7B207D3B1D2BB9C000C99118 /* CSJSnapKitDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7B207D451D2BB9C100C99118 /* CSJSnapKitDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7B207D551D2BB9C100C99118 /* Build configuration list for PBXNativeTarget "CSJSnapKitDemoUITests" */;
-			buildPhases = (
-				7B207D421D2BB9C100C99118 /* Sources */,
-				7B207D431D2BB9C100C99118 /* Frameworks */,
-				7B207D441D2BB9C100C99118 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7B207D481D2BB9C100C99118 /* PBXTargetDependency */,
-			);
-			name = CSJSnapKitDemoUITests;
-			productName = CSJSnapKitDemoUITests;
-			productReference = 7B207D461D2BB9C100C99118 /* CSJSnapKitDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -223,14 +158,7 @@
 				TargetAttributes = {
 					7B207D261D2BB9C000C99118 = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					7B207D3A1D2BB9C000C99118 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 7B207D261D2BB9C000C99118;
-					};
-					7B207D451D2BB9C100C99118 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 7B207D261D2BB9C000C99118;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -248,8 +176,6 @@
 			projectRoot = "";
 			targets = (
 				7B207D261D2BB9C000C99118 /* CSJSnapKitDemo */,
-				7B207D3A1D2BB9C000C99118 /* CSJSnapKitDemoTests */,
-				7B207D451D2BB9C100C99118 /* CSJSnapKitDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,26 +188,27 @@
 				7B207D351D2BB9C000C99118 /* LaunchScreen.storyboard in Resources */,
 				7B207D321D2BB9C000C99118 /* Assets.xcassets in Resources */,
 				7B207D301D2BB9C000C99118 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B207D391D2BB9C000C99118 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B207D441D2BB9C100C99118 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7B31148D1DD6AE6600778EB6 /* SnapKit.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7B31148E1DD6AE7C00778EB6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 		A81A10EDFA6F1435131DA16B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,36 +267,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B207D371D2BB9C000C99118 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B207D401D2BB9C100C99118 /* CSJSnapKitDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B207D421D2BB9C100C99118 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B207D4B1D2BB9C100C99118 /* CSJSnapKitDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7B207D3D1D2BB9C100C99118 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7B207D261D2BB9C000C99118 /* CSJSnapKitDemo */;
-			targetProxy = 7B207D3C1D2BB9C100C99118 /* PBXContainerItemProxy */;
-		};
-		7B207D481D2BB9C100C99118 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7B207D261D2BB9C000C99118 /* CSJSnapKitDemo */;
-			targetProxy = 7B207D471D2BB9C100C99118 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7B207D2E1D2BB9C000C99118 /* Main.storyboard */ = {
@@ -479,11 +377,16 @@
 			baseConfigurationReference = 261D99A20A0ECCD5EEF6D8B4 /* Pods-CSJSnapKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CSJSnapKitDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iceesj.CSJSnapKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -492,57 +395,16 @@
 			baseConfigurationReference = 85397A4BEC172C56A843B4B9 /* Pods-CSJSnapKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CSJSnapKitDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iceesj.CSJSnapKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		7B207D531D2BB9C100C99118 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CSJSnapKitDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iceesj.CSJSnapKitDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSJSnapKitDemo.app/CSJSnapKitDemo";
-			};
-			name = Debug;
-		};
-		7B207D541D2BB9C100C99118 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CSJSnapKitDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iceesj.CSJSnapKitDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSJSnapKitDemo.app/CSJSnapKitDemo";
-			};
-			name = Release;
-		};
-		7B207D561D2BB9C100C99118 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CSJSnapKitDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iceesj.CSJSnapKitDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CSJSnapKitDemo;
-			};
-			name = Debug;
-		};
-		7B207D571D2BB9C100C99118 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CSJSnapKitDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iceesj.CSJSnapKitDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CSJSnapKitDemo;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -563,24 +425,6 @@
 			buildConfigurations = (
 				7B207D501D2BB9C100C99118 /* Debug */,
 				7B207D511D2BB9C100C99118 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7B207D521D2BB9C100C99118 /* Build configuration list for PBXNativeTarget "CSJSnapKitDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B207D531D2BB9C100C99118 /* Debug */,
-				7B207D541D2BB9C100C99118 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7B207D551D2BB9C100C99118 /* Build configuration list for PBXNativeTarget "CSJSnapKitDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B207D561D2BB9C100C99118 /* Debug */,
-				7B207D571D2BB9C100C99118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
